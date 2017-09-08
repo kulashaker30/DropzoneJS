@@ -1,0 +1,31 @@
+﻿<!doctype html>
+<html>
+<head>
+    <title>DropzoneJS C# Web API - Chris</title>
+    <link rel="stylesheet" href="http://www.dropzonejs.com/css/dropzone.css?v=1497966187"/>
+    <link rel="stylesheet" href="http://www.dropzonejs.com/css/style.css?v=1497966187" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://rawgit.com/enyo/dropzone/master/dist/dropzone.js"></script>
+
+    <style>
+        .container {
+            width: 50%
+        }
+    </style>
+
+</head>
+<body>
+
+    <div id="dropzone" class="container">
+        <form action="http://localhost:64837/api/file/upload" class="dropzone needsclick text-center" id="demo-upload">
+
+            <div class="dz-message needsclick">
+                Drop files here or click to upload.<br />
+                <span class="note needsclick">(This is just a demo dropzone. Selected files are <strong>not</strong> actually uploaded.)</span>
+            </div>
+
+        </form>
+    </div>
+
+</body>
+</html>
